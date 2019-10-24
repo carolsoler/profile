@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker&display=swap');
+
+body {
+  background-image: url("images/fondo-comic.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: lighter;
+    font-style: italic;
+    font-size: 25px;
+    opacity: .7;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  color: #a54a5e;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.text {
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.container {
+  padding: 20px;
+  width: 950px;
+  margin: 0 auto;
+  color: white;
+  background: linear-gradient(210deg, #013b86, #2863b1);
+  border-radius: 2px;
+  border: 8px solid rgba(0, 0, 0, .6);
+  position: relative;
+}
+
+.wrapper {
+  padding: 50px 0;
+}
+
+#image-side {
+  float: left;
+  border-radius: 5%;
+  width: 260px;
+  border: 8px solid white;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 12px;
+}
+
+li {
+  display: inline-block;
+  font-size: 40px;
+  padding-bottom: 15px;
+
+}
+
+.social {
+  width: 500px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 2px;
+  border: 8px solid rgba(0, 0, 0, .8);
+  padding-left: 30px;
+  text-align: center;
+}
+
+
+.icon-blue {
+  color: #206294;
+}
+.icon-blue:hover {
+  color: red;
+}
+
+.btn-pink {
+  position: absolute;
+  background-color: #F3C1E9;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  bottom: 0px;
+  right: 382px;
+  margin: 19px;
+}
+
+.btn-pink:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.background-comic {
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 70px;
+}
+
+
+
+
